@@ -29,7 +29,7 @@ public class AdminConfiguration {
 
     @Bean
     public NewTopic createTopic() {
-        return TopicBuilder.name("topicName")
+        return TopicBuilder.name(topicName)
                 .partitions(3)
                 .replicas(1)
                 .build();
