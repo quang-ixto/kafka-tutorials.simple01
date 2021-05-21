@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Consumer {
 
-    @KafkaListener(topics = "MyTopic", groupId = "group_id", containerFactory = "kafkaListenerContainerFactory")
+    @KafkaListener(topics = "${kafka.topicName}", groupId = "${kafka.groupId}", containerFactory = "kafkaListenerContainerFactory")
     public void consumer(String message) {
         System.out.println("Received message: " + message);
     }

@@ -1,2 +1,4 @@
-kafka.topicName: MyTopic
-kafka.bootstrapServer: localhost:9092
+kafka:
+  topicName: MyTopic
+  groupId: group_id
+  bootstrapServer: localhost:9092
