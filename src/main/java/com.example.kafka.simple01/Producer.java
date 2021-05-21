@@ -1,4 +1,4 @@
-package kafkatutorials.producerconsumer.simple01;
+package com.example.kafka.simple01;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

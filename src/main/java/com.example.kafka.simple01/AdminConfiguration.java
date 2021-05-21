@@ -1,4 +1,4 @@
-package kafkatutorials.producerconsumer.simple01;
+package com.example.kafka.simple01;
 
 import org.apache.kafka.clients.admin.AdminClientConfig;
 import org.apache.kafka.clients.admin.NewTopic;

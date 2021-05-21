@@ -1,4 +1,4 @@
-package kafkatutorials.producerconsumer.simple01;
+package com.example.kafka.simple01;
 
 import org.springframework.kafka.annotation.EnableKafka;
 import org.springframework.kafka.annotation.KafkaListener;
